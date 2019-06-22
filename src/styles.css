@@ -1,0 +1,118 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: table;
+}
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #de2797fc;
+}
+
+h1,
+h3 {
+  padding-top: 32px;
+  text-align: center;
+  line-height: 4px;
+  color: #61656e;
+  position: relative;
+}
+
+h3 {
+  padding-top: 6px;
+}
+
+form {
+  display: table; /* shrinks to fit content */
+  margin: auto;
+  border: 1px solid gray;
+}
+
+p {
+  word-wrap: break-word;
+  width: 50%;
+  font-size: 0.75em;
+  color: #61656e;
+  font-weight: 400;
+  line-height: 18px;
+  margin: auto auto 0.1rem 0.25rem;
+}
+
+.content {
+  display: inline-block;
+  font-size: 0.875em;
+  color: #61656e;
+  font-weight: 400;
+  line-height: 18px;
+  margin: auto auto 0.1rem 0.25rem;
+}
+
+.select-wrapper {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.textfeild {
+  padding: 0.5em;
+  margin-right: 1em;
+  width: 33rem;
+}
+
+.textfeildGroup {
+  padding: 0.5em;
+  margin-right: 1em;
+  width: 15rem;
+}
+.select-wrapper .label {
+  color: #61656e;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin: auto auto 0.1rem 0.25rem;
+}
+
+select {
+  margin: 0.5em;
+  margin-left: 0px;
+  padding: 0.5em;
+  width: 11.1rem;
+  height: 2.5em;
+  border: 1px;
+}
+
+.submit {
+  padding: 16px;
+  background-color: #de2797fc;
+  border: 1px solid #c130b1;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 1rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .textfeild,
+  .textfeildGroup,
+  select {
+    width: 15rem;
+  }
+
+  h1,
+  h3 {
+    font-size: 14px;
+    line-height: 1;
+  }
+}
